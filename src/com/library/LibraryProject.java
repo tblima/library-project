@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class LibraryProject {
     public static void main(String[] args) {
-        Library library = new Library();
+        /*Library library = new Library();
         Scanner scanner = new Scanner(System.in);
 
         Author author1 = new Author(1, "Rhonda Byrne", LocalDate.of(1951, Month.MARCH, 12));
@@ -70,6 +70,6 @@ public class LibraryProject {
             }
         }
 
-        scanner.close();
+        scanner.close();*/
     }
 }

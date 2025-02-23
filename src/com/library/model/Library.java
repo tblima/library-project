@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Library {
-    private final List<Book> books = new ArrayList<>();
-    private final List<Author> authors = new ArrayList<>();
-    private final List<Lend> lends = new ArrayList<>();
+    private List<Book> books = new ArrayList<>();
+    private List<Author> authors = new ArrayList<>();
+    private List<Lend> lends = new ArrayList<>();
 
     public List<Book> getBooks() {
         return books;
@@ -25,7 +25,7 @@ public class Library {
     }
 
     public void addBook(Book book) {
-        this.books.add(book);
+        books.add(book);
     }
 
     public Book findBookById(int id) {
@@ -53,7 +53,7 @@ public class Library {
     }
 
     public void addAuthor(Author author) {
-        this.authors.add(author);
+        authors.add(author);
     }
 
     public Author findAuthorById(int id) {
